@@ -1,0 +1,28 @@
+# Running a 27B on a mini-PC — the complete measured Strix Halo story
+
+Notes for people serving local models on their own hardware: a 27B-class model
+on a unified-memory mini-PC at full native context, with every dial pinned by
+a paired measurement instead of a forum hunch — the context ladders, the KV
+verdict, the frozen config, the measured knees, two bugs on the record. Every
+number keeps the validity label it was published with: CLEAN (paired, n
+satisfies the rules, no known confound), DIRECTIONAL (real signal, quote only
+with the label), PILOT (justifies running the real experiment, never gates a
+decision), ARITHMETIC.
+
+## Canonical links
+
+- This repo: https://github.com/simongonzalezdc/resonant-local-27b-story
+- Blog companion: https://kyanitelabs.tech/blog/qwen-27b-strix-halo-complete
+- Canonical repo: https://github.com/KyaniteLabs/qwen38-27b-strix-halo (MIT) — configs, instruments, methodology, raw logs
+
+## Key facts
+
+- License: MIT
+- Every number's original validity label is intact; several maps are
+  PILOT-class on purpose — maps, not laws
+- Nothing here re-measures or re-brands anything
+
+Relationship: community gift by Kyanite Labs for ResonantOS — canonical
+source: https://github.com/KyaniteLabs/qwen38-27b-strix-halo; this adaptation
+is non-canonical; where a number here ever disagrees with the canonical repo,
+the canonical repo wins.
