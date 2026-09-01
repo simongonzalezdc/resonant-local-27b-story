@@ -1,0 +1,38 @@
+REVIEW RECORD — resonant-local-27b-story (2026-09-01)
+
+Reviewer: one general-purpose review pass (data + narrative). Note: the
+headless subagent dispatch failed twice (CLI "turn execution" error), so the
+review ran in-worker against the same brief: every number verified against
+the blog source articles and the canonical stack repo, then form + privacy.
+
+PASS 1 — DATA (blog articles by slug in the landing source; canonical repo
+README/METHODOLOGY/results/config-27b-2026-08-21/results README; evo-x2-ec
+README): every numeric claim checked line-by-line. Result: zero numeric
+mismatches. All cited repo paths and blog slugs exist in the sources.
+
+Findings applied:
+1. FIX — upstream-bug quote not verbatim; now quotes the canonical line
+   exactly: "Degeneration was the instrument, not the model."
+2. FIX — honest-gap "one box" item wrongly implied EC work ran on a second
+   chassis; corrected (the EC work was on the same box; only the register
+   map's origin is the sibling board).
+3. NIT — opening of the knees section softened to avoid a superlative
+   construction.
+
+Carried, not smoothed: the canonical close-out's "8 GB" full-window KV-trade
+figure disagrees with the repo's own 9.1-vs-4.8 GB arithmetic and the blog's
+"~4 GB"; both are stated in the frozen-config section with the discrepancy
+flagged.
+
+PASS 2 — NARRATIVE + FORM: index-first structure, job-name headings,
+receipt tables with takeaway sentences above, provenance stamp under every
+claim cluster (19 stamps), CLEAN/DIRECTIONAL/PILOT/ARITHMETIC labels carried
+from the canonical methodology, plain tables only (no charts), honest-gap
+section, reproduce section pointing at the canonical repos plus the
+stack-bench and delegation-bench add-on instruments, nothing rebranded,
+canonical-repo-wins rule stated. PASS.
+
+PRIVACY SCAN: no home paths; no internal org/agent names; no client
+references; no emoji; EN only. The only personal-shaped strings are the two
+public add-on repo URLs (stack-bench, delegation-bench), which the form
+requires the reproduce section to name. PASS.
