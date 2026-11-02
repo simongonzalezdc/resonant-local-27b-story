@@ -264,7 +264,7 @@ over ~2k tokens split across decode calls, produced NaN logits, and the
 model sampled `/` forever. A six-prompt vision battery read **0/6 before a
 revert, 5/6 after** (five hits sub-second; all six stopped clean after);
 text HumanEval on the same binary stayed 28/30. The revert was bisected on
-this hardware, reported upstream
+this hardware, independently reproduced on the existing upstream
 ([issue 26209](https://github.com/ggml-org/llama.cpp/issues/26209)), and the
 upstream fix was later validated on this silicon with **9/9 identical paired
 answers**. Post-fix, the same needle instrument retrieved 13/13 exact across
